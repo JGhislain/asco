@@ -82,17 +82,25 @@ main {
     width: 90%;
     margin: auto;
 }
+.titre-media {
+    color: var(--tertiaire-color);
+    margin: 6vh 2vw;
+    font-size: 2em;
+}
 .liste {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 100px 20px;
+    margin: 0 1em;
+    border: 5px solid var(--tertiaire-color);
+    border-radius: 5%;
+    padding: 2em;
 }
 .liste img {
     height: 250px;
     width: 250px;
     object-fit: contain;
-    margin: 10px 10px;
+    margin: 0.5em 0.5em;
 }
 .lightbox.show {
     display: initial;
