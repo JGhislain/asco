@@ -74,6 +74,9 @@ nav {
     background-color: #911c1c;
     color: var(--tertiaire-color);
 }
+body {
+    margin-bottom: 5vh;
+}
 .section-activite {
     padding-bottom: 4em;
 }

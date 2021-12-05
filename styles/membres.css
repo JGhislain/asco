@@ -75,6 +75,9 @@ nav {
     background-color: var(--red-color);
     color: var(--tertiaire-color);
 }
+body {
+    margin-bottom: 5vh;
+}
 .section-equipes {
     padding-bottom: 4em;
 }

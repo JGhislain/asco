@@ -76,11 +76,7 @@ nav {
     color: var(--tertiaire-color);
 }
 body {
-    margin: 0;
-}
-main {
-    width: 90%;
-    margin: auto;
+    margin-bottom: 5vh;
 }
 .titre-media {
     color: var(--tertiaire-color);
