@@ -2,6 +2,7 @@
     --primaire-color: #03224C;
     --second-color: #0057CB;
     --tertiaire-color:  #E1F6F9;
+    --red-color: #901C1C;
     --font-color: #000;
 }
 * {
@@ -59,18 +60,152 @@ nav {
 .naviguation {
     font-size: 1.2em;
     text-decoration: none;
-    color: #911c1c;
+    color: var(--red-color);
     font-weight: bold;
-    border: 2px solid #911c1c;
+    border: 2px solid var(--red-color);
     border-radius: 10px;
     padding: 0.3vh 0.3vw;
     cursor: pointer;
 }
 .naviguation:hover {
-    background-color: #911c1c;
+    background-color: var(--red-color);
     color: var(--tertiaire-color);
 }
 .page-active {
-    background-color: #911c1c;
+    background-color: var(--red-color);
     color: var(--tertiaire-color);
+}
+.section-equipes {
+    padding-bottom: 4em;
+}
+.titre-equipe {
+    color: var(--tertiaire-color);
+    margin: 6vh 2vw;
+    font-size: 2em;
+}
+.equipe {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.profil-equipe {
+    width: 28%;
+    background-color: var(--tertiaire-color);
+    border-radius: 25px;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+}
+.lien-equipe {
+    align-self: center;
+}
+.img-equipe {
+    width: 100%;
+    object-fit: cover;
+    height: 25vh;
+    border-radius: 25px;
+}
+.info-equipe {
+    padding: 0 3em;
+}
+.num-equipe {
+    font-size: 2.5em;
+    color: var(--second-color);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 0.5em;
+}
+.joueur-equipe {
+    text-decoration: none;
+    color: var(--primaire-color);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.groupe {
+    display: flex;
+    justify-content: space-between;
+}
+.classement {
+    display: flex;
+    justify-content: space-between;
+}
+.titre-groupe {
+    font-size: 1.3em;
+    color: var(--second-color);
+}
+.nom-groupe {
+    font-size: 1.3em;
+    color: var(--red-color);
+    font-weight: bold;
+}
+.img-joueur {
+    width: 250px;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 100%;
+}
+.nom-joueur {
+    font-size: 2.5em;
+    color: var(--second-color);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.titre-classe {
+    font-size: 1.3em;
+    color: var(--second-color);
+}
+.position-classe {
+    font-size: 1.3em;
+    color: var(--red-color);
+    font-weight: bold;
+}
+.categorie {
+    display: flex;
+    justify-content: space-between;
+}
+.titre-categorie {
+    font-size: 1.3em;
+    color: var(--second-color);
+}
+.position-categorie {
+    font-size: 1.3em;
+    color: var(--red-color);
+    font-weight: bold;
+}
+.rang {
+    display: flex;
+    justify-content: space-between;
+}
+.titre-rang {
+    font-size: 1.3em;
+    color: var(--second-color);
+}
+.position-rang {
+    font-size: 1.3em;
+    color: var(--red-color);
+    font-weight: bold;
+}
+.fonction {
+    display: flex;
+    justify-content: space-between;
+}
+.titre-fonction {
+    font-size: 1.3em;
+    color: var(--second-color);
+}
+.club-fonction {
+    font-size: 1.3em;
+    color: var(--red-color);
+    font-weight: bold;
 }
