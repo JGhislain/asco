@@ -149,9 +149,9 @@ li {
     font-weight: bold;
 }
 .img-joueur {
-    width: 250px;
+    width: 200px;
     object-fit: cover;
-    height: 250px;
+    height: 200px;
     border-radius: 100%;
 }
 .nom-joueur {
