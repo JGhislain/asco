@@ -86,7 +86,7 @@ body {
 .liste {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0 1em;
     border-radius: 5%;
     padding: 2em;
