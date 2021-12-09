@@ -4,13 +4,15 @@
     --tertiaire-color:  #E1F6F9;
     --red-color: #901C1C;
     --font-color: #000;
+    --background-color: linear-gradient(to bottom, #03224C 0%, #0057CB 50%, #E1F6F9 100%);
 }
 * {
     font-family: 'Source Sans Pro', sans-serif;;
 }
 html {
     box-sizing: border-box;
-    background-color: var(--primaire-color);
+    background: var(--primaire-color);
+    background: var(--background-color);
     margin: 0 3%;
 }
 header {
@@ -93,22 +95,23 @@ body {
     background-color: var(--tertiaire-color);
 }
 .liste img {
-    height: 450px;
+    height: 370px;
     width: 450px;
     object-fit: contain;
-    margin: 0.5em 0.5em;
 }
 .reglement {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    margin: 2vh 2vw;
 }
 .media {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    margin: 2vh 2vw;
 }
 .media:hover {
     box-shadow: inset 0em 0em 5em 0em var(--red-color);
@@ -127,7 +130,7 @@ body {
     font-size: 1.5em;
     color: var(--second-color);
     text-decoration: none;
-    padding: 1em;
+    padding: 0.5em;
 }
 .telecharger:hover {
     color: var(--red-color);
